@@ -9,6 +9,8 @@
 
 - 87fuli电影
 
+- 小网站 
+
 ## [taptap](./taptap/index.js)
 官方网址：https://www.taptap.com/
 
@@ -48,3 +50,13 @@
 - 视频列表
 
 - 视频详情
+
+##[小网站]('./585ii/index.js')
+官方网址：https://www.585ii.com/index/home.html
+
+抓取内容：
+- 图片列表
+
+- 图片详情
+
+- 支持图片下载 && api 
