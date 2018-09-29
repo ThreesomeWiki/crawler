@@ -38,7 +38,7 @@ async function getList(key, page) {
         console.log(url)
         let ret = await request.get({
             url: url,
-            header: {
+            headers: {
                 'User-Agent': ua
             }
         });
@@ -51,7 +51,7 @@ async function getList(key, page) {
             let detail_url = v.find('a').attr('href');
             let detail_html = await request.get({
                 url: `${base_url}${detail_url}`,
-                header: {
+                headers: {
                     'User-Agent': ua
                 }
             });
