@@ -9,10 +9,7 @@ const { promisify } = require('util');
 const ua = "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
 const sleep = promisify(setTimeout);
 
-const base_url = 'https://www.889ii.com';
-const url_list = {
-    'www.585ii.com': '104.27.160.152'
-}
+const base_url = 'https://xxxxxxx';
 /*防止IP失效*/
 const task = {
     img: {
