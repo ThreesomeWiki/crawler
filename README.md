@@ -55,8 +55,6 @@
 - 视频详情
 
 ## [小网站](./585ii/index.js)
-官方网址：https://www.585ii.com/index/home.html
-
 抓取内容：
 - 图片列表
 
