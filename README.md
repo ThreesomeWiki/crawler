@@ -69,5 +69,6 @@
 - 小说列表
 
 # [智联招聘]('./zhilian/index.py')
+官方网址： https://www.zhaopin.com/
 抓取内容：
 - 根据key 抓取智联工作列表，以该工作的地址
