@@ -19,3 +19,5 @@ python3 index.py or node index
 -   [87fuli 电影](http://www.sg80.com/type/1.html)
 
 -   [小视频](./585ii/index.js)
+
+-   [福利吧](https://fulibus.net/page/1)
