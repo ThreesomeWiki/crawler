@@ -19,6 +19,11 @@ boolbase@~1.0.0:
   resolved "https://registry.npm.taobao.org/boolbase/download/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
 
+char-buffer@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npm.taobao.org/char-buffer/download/char-buffer-1.0.1.tgz#30376135d2a0d4c8bc26b912c3f85c7fdf494669"
+  integrity sha1-MDdhNdKg1Mi8JrkSw/hcf99JRmk=
+
 cheerio@^1.0.0-rc.3:
   version "1.0.0-rc.3"
   resolved "https://registry.npm.taobao.org/cheerio/download/cheerio-1.0.0-rc.3.tgz#094636d425b2e9c0f4eb91a46c05630c9a1a8bf6"
@@ -131,10 +136,22 @@ htmlparser2@^3.9.1:
     inherits "^2.0.1"
     readable-stream "^3.1.1"
 
+iconv-lite@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.npm.taobao.org/iconv-lite/download/iconv-lite-0.5.1.tgz#b2425d3c7b18f7219f2ca663d103bddb91718d64"
+  integrity sha1-skJdPHsY9yGfLKZj0QO925FxjWQ=
+  dependencies:
+    safer-buffer ">= 2.1.2 < 3"
+
 inherits@^2.0.1, inherits@^2.0.3:
   version "2.0.4"
   resolved "https://registry.npm.taobao.org/inherits/download/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
   integrity sha1-D6LGT5MpF8NDOg3tVTY6rjdBa3w=
+
+lodash.uniq@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.npm.taobao.org/lodash.uniq/download/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
+  integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
 lodash@^4.15.0:
   version "4.17.15"
@@ -145,6 +162,11 @@ ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/ms/download/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
   integrity sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=
+
+node-escapist@^0.1.1-f:
+  version "0.1.1-f"
+  resolved "https://registry.npm.taobao.org/node-escapist/download/node-escapist-0.1.1-f.tgz#d0f8abd4afa77af356267f58e3345b78b8720c7c"
+  integrity sha1-0Pir1K+nevNWJn9Y4zRbeLhyDHw=
 
 nth-check@~1.0.1:
   version "1.0.2"
@@ -174,12 +196,26 @@ safe-buffer@~5.2.0:
   resolved "https://registry.npm.taobao.org/safe-buffer/download/safe-buffer-5.2.0.tgz?cache=0&sync_timestamp=1587903575225&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsafe-buffer%2Fdownload%2Fsafe-buffer-5.2.0.tgz#b74daec49b1148f88c64b68d49b1e815c1f2f519"
   integrity sha1-t02uxJsRSPiMZLaNSbHoFcHy9Rk=
 
+"safer-buffer@>= 2.1.2 < 3":
+  version "2.1.2"
+  resolved "https://registry.npm.taobao.org/safer-buffer/download/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
+  integrity sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo=
+
 string_decoder@^1.1.1:
   version "1.3.0"
   resolved "https://registry.npm.taobao.org/string_decoder/download/string_decoder-1.3.0.tgz#42f114594a46cf1a8e30b0a84f56c78c3edac21e"
   integrity sha1-QvEUWUpGzxqOMLCoT1bHjD7awh4=
   dependencies:
     safe-buffer "~5.2.0"
+
+"true-html-escape@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.npm.taobao.org/true-html-escape/download/true-html-escape-1.0.0.tgz#4595e802a718794d89a17e81dac313d14c68d3ee"
+  integrity sha1-RZXoAqcYeU2JoX6B2sMT0Uxo0+4=
+  dependencies:
+    char-buffer "^1.0.1"
+    lodash.uniq "^4.5.0"
+    node-escapist "^0.1.1-f"
 
 util-deprecate@^1.0.1:
   version "1.0.2"
